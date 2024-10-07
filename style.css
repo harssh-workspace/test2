@@ -767,7 +767,7 @@ textarea:hover {
     border-color: #ee7b2f;
 }
 
-button[type="submit"] {
+button {
     padding: 14px 24px;
     background-color: white;
     color: #475265;
@@ -777,7 +777,7 @@ button[type="submit"] {
 
 }
 
-button[type="submit"]:hover {
+button:hover {
     background-color: #ee7b2f;
     color: white;
     transition: 0.4s;
