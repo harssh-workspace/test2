@@ -1,5 +1,5 @@
-/* For whole page  */
-html{
+/* For smooth scrolling */
+html {
     scroll-behavior: smooth;
 }
 
@@ -11,6 +11,8 @@ body {
     font-weight: 300;
 
 }
+
+/* for page 1 */
 
 .header img {
     /* border: 2px solid black; */
@@ -117,6 +119,8 @@ main img {
 .contact-btn:hover {
     background-position: left;
 }
+
+/* for page 2 */
 
 .about {
     /* border: 2px solid white; */
@@ -263,6 +267,8 @@ main img {
 
 }
 
+/* for page 3 */
+
 .services {
     /* border: 2px solid white; */
     display: inline-block;
@@ -291,7 +297,7 @@ main img {
     position: absolute;
     left: 80px;
     color: white;
-    top: 275%;
+    top: 276%;
 }
 
 .graphic img {
@@ -432,6 +438,8 @@ main img {
     max-width: 300px;
 }
 
+/* for page 4 */
+
 .portfolio h3 {
     display: inline-block;
     text-transform: uppercase;
@@ -452,7 +460,7 @@ main img {
     font-weight: 600;
     line-height: 140%;
     position: absolute;
-    top: 373%;
+    top: 376%;
     left: 80px;
     color: white;
 
@@ -542,73 +550,7 @@ main img {
     top: 0%;
 }
 
-.flip-cards {
-    background-color: transparent;
-    width: 300px;
-    height: 400px;
-    perspective: 1000px;
-    position: absolute;
-    top: 400%;
-    left: 80px;
-    padding-bottom: 20%;
-    cursor: pointer;
-}
-
-.flip-cards-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.flip-cards:hover .flip-cards-inner {
-    transform: rotateY(180deg);
-}
-
-.flip-cards-front,
-.flip-cards-back-image {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
-
-.flip-cards-front {
-    background-color: #bbb;
-    color: black;
-}
-
-.flip-cards-back-image {
-    background-color: #ffffff;
-    /* filter: blur(1px); */
-    color: #1c2129;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    transform: rotateY(180deg);
-    font-weight: lighter;
-    line-height: 1.6;
-}
-
-.cardss-design {
-    font-weight: 400;
-}
-
-.shows:hover {
-    text-decoration: underline;
-    color: #ee7b2f;
-}
-
-.shows {
-    display: block;
-    border: 1px solid #1a202a;
-    position: relative;
-    bottom: 5%;
-    text-align: center;
-    padding: 2px;
-}
+/* for page 5 */
 
 .page5 {
     background-color: #475265;
@@ -676,18 +618,6 @@ main img {
     position: absolute;
     top: 60%;
     left: -39px;
-    /* position: absolute;
-    top: 60%;
-    left: -39px;
-    font-size: 85px;
-    font-family: Clashdisplay, sans-serif;
-    text-transform: uppercase;
-    font-weight: 900;
-    color: #475265;
-    text-shadow: -1px 1px 0 #a7a7a7,
-        1px 1px 0 #a7a7a7,
-        1px -1px 0 #a7a7a7,
-        -1px -1px 0 #a7a7a7; */
 }
 
 .important ul {
