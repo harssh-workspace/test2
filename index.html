@@ -200,10 +200,24 @@
                     <label for="message">Message</label>
                     <textarea type="text" id="message3" maxlength="5000" name="Message" placeholder required></textarea>
                 </div>
-                <button type="submit" name="send" id="send" value="send">send</button>
+                <button onclick="myFunction()" type="submit" name="send" id="send" value="send">send</button>
             </form>
         </aside>
     </div>
+    <div>
+        <p id="demop"></p>
+    </div>
+     <scrpit>
+         function myFunction() {
+             var txt;
+             if (confirm("Press a button!")) {
+                txt = "You pressed OK!";
+              } else {
+                txt = "You pressed Cancel!";
+              }
+              document.getElementById("demop").innerHTML = txt;
+            }
+     </scrpit>
 </body>
 
 </html>
