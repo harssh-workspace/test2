@@ -205,17 +205,22 @@
             </form>
         </aside>
     </div>
-     <scrpit>
-         function myFunction() {
-             var txt;
-             if (confirm("Press a button!")) {
-                txt = "You pressed OK!";
-              } else {
-                txt = "You pressed Cancel!";
-              }
-              document.getElementById("demop").innerHTML = txt;
-            }
-     </scrpit>
+     <button onclick="myFunction()">Try it</button>
+
+<span id="demo"></span>
+
+    <script>
+    function myFunction() {
+      var txt;
+      if (confirm("Press a button!")) {
+        txt = "You pressed OK!";
+      } else {
+        txt = "You pressed Cancel!";
+      }
+      document.getElementById("demo").innerHTML = txt;
+    }
+    </script>
+
 </body>
 
 </html>
