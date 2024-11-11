@@ -701,6 +701,9 @@ textarea {
 textarea:hover {
     border-color: #ee7b2f;
 }
+textarea:focus {
+    outline: none;
+}
 
 button {
     padding: 14px 24px;
