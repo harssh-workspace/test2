@@ -690,6 +690,9 @@ input[type="text"]:focus {
 }
 
 textarea {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
     background-color: #475265;
     border: 1px solid white;
     border-radius: 3px;
