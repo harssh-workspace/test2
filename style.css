@@ -679,7 +679,6 @@ input[type="text"] {
 }
 
 input[type="text"]:hover {
-    border: none;
     border-color: #ee7b2f;
 
 
