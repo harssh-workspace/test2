@@ -671,7 +671,8 @@ input[type="text"] {
     display: block;
     color: white;
     background-color: #475265;
-    border: none;
+    inner-border: none;
+    outline: none;
     border-radius: 3px;
     width: 307px;
     height: 30px;
