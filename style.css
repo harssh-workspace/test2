@@ -702,6 +702,7 @@ button {
     background-color: white;
     color: #475265;
     border-radius: 30px;
+    border: none;
     text-transform: uppercase;
     text-decoration: none;
 
