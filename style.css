@@ -683,6 +683,11 @@ input[type="text"]:hover {
 
 
 }
+input[type="text"]:focus {
+    outline: none;
+
+
+}
 
 textarea {
     background-color: #475265;
